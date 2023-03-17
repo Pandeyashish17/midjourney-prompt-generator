@@ -1,7 +1,6 @@
 import gradio as gr
 import openai
-from gradio.components import Textbox,Button
-import pyperclip
+from gradio.components import Textbox
 
 def generate_prompt(keywords,api_key):
     openai.api_key = api_key
